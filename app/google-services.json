@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1045919015945",
+    "project_id": "empresa-bcb97",
+    "storage_bucket": "empresa-bcb97.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1045919015945:android:dce3958a8ec13acb6d84d8",
+        "android_client_info": {
+          "package_name": "com.example.proyecto"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1045919015945-2q19d3lu5ku7i3ngernn1sbuqu8piqs7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC8BUQN7pHaFGnvndt3iJ-gKkyZi5_x78I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1045919015945-2q19d3lu5ku7i3ngernn1sbuqu8piqs7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

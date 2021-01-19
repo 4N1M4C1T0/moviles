@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/bg_color"
+    android:layout_height="wrap_content"
+    tools:context=".pedidos">
+
+    <TableLayout
+        android:id="@+id/tableLayout"
+        android:layout_width="413dp"
+        android:layout_height="231dp"
+        android:layout_marginTop="74dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_marginTop="20dp">
+
+        <TableRow>
+
+            <TextView
+                android:layout_column="1"
+                android:padding="3dip"
+                android:text="Pedido" />
+
+            <TextView
+                android:gravity="right"
+                android:padding="3dip"
+                android:text="Ctrl-O" />
+        </TableRow>
+
+
+        <TableRow>
+
+            <TextView
+                android:layout_column="1"
+                android:padding="3dip"
+                android:text="Pedido" />
+
+            <TextView
+                android:gravity="right"
+                android:padding="3dip"
+                android:text="Ctrl-O" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_column="1"
+                android:padding="3dip"
+                android:text="Pedido" />
+
+            <TextView
+                android:gravity="right"
+                android:padding="3dip"
+                android:text="Ctrl-O" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_column="1"
+                android:padding="3dip"
+                android:text="Pedido" />
+
+            <TextView
+                android:gravity="right"
+                android:padding="3dip"
+                android:text="Ctrl-O" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_column="1"
+                android:padding="3dip"
+                android:text="Pedido" />
+
+            <TextView
+                android:gravity="right"
+                android:padding="3dip"
+                android:text="Ctrl-O" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_column="1"
+                android:padding="3dip"
+                android:text="Pedido" />
+
+            <TextView
+                android:gravity="right"
+                android:padding="3dip"
+                android:text="Ctrl-O" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_column="1"
+                android:padding="3dip"
+                android:text="Pedido" />
+
+            <TextView
+                android:gravity="right"
+                android:padding="3dip"
+                android:text="Ctrl-O" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_column="1"
+                android:padding="3dip"
+                android:text="Pedido" />
+
+            <TextView
+                android:gravity="right"
+                android:padding="3dip"
+                android:text="Ctrl-O" />
+        </TableRow>
+
+    </TableLayout>
+
+    <Button
+        android:id="@+id/btnRegresar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="159dp"
+        android:layout_marginTop="128dp"
+        android:text="RETURN"
+        android:background="@drawable/button"
+        android:onClick="Return"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tableLayout" />
+</androidx.constraintlayout.widget.ConstraintLayout>
